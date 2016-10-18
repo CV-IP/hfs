@@ -6,20 +6,20 @@ Created by Yun Liu at Nankai University
 
 <img src="http://mmcheng.net/wp-content/uploads/2016/10/HFS_sample.png" width="800">
 
-We propose a real-time system, Hierarchical Feature Selection (HFS), that performs image segmentation at a speed of 50 frames-per-second. We make an attempt to improve the performance of previous image segmentation systems by focusing on two aspects: (1) a careful system implementation on modern GPUs for efficient feature computation; and (2) an effective hierarchical feature selection and fusion strategy with learning. Compared with classic segmentation algorithms, our system demonstrates its particular advantage in speed, with comparable results in segmentation quality. Adopting HFS in applications like salient object detection and object proposal generation results in a significant performance boost. Our proposed HFS system (will be open-sourced) can be used in a variety computer vision tasks that are built on top of image segmentation and superpixel extraction. Detailed description of the system can be found in our [paper] (http://mmcheng.net/hfs/).
+We propose a real-time system, Hierarchical Feature Selection (HFS), that performs image segmentation at a speed of 50 frames-per-second. We make an attempt to improve the performance of previous image segmentation systems by focusing on two aspects: (1) a careful system implementation on modern GPUs for efficient feature computation; and (2) an effective hierarchical feature selection and fusion strategy with learning. Compared with classic segmentation algorithms, our system demonstrates its particular advantage in speed, with comparable results in segmentation quality. Adopting HFS in applications like salient object detection and object proposal generation results in a significant performance boost. Our proposed HFS system can be used in a variety computer vision tasks that are built on top of image segmentation and superpixel extraction. Detailed description of the system can be found in our [paper] (http://mmcheng.net/hfs/).
 
 ### Citations
 
 If you are using the code provided here in a publication, please cite our paper:
 
-@inproceedings{cheng2016hfs,
-  title={HFS: Hierarchical Feature Selection for Efficient Image Segmentation},
-  author={Cheng, Ming-Ming and Liu, Yun and Hou, Qibin and Bian, Jiawang and Torr, Philip and Hu, Shi-Min and Tu, Zhuowen},
-  booktitle={European Conference on Computer Vision},
-  pages={867--882},
-  year={2016},
-  organization={Springer}
-}
+  @inproceedings{cheng2016hfs,
+    title={HFS: Hierarchical Feature Selection for Efficient Image Segmentation},
+    author={Cheng, Ming-Ming and Liu, Yun and Hou, Qibin and Bian, Jiawang and Torr, Philip and Hu, Shi-Min and Tu, Zhuowen},
+    booktitle={European Conference on Computer Vision},
+    pages={867--882},
+    year={2016},
+    organization={Springer}
+  }
 
 ### Installation
 
