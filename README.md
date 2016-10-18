@@ -12,14 +12,14 @@ We propose a real-time system, Hierarchical Feature Selection (HFS), that perfor
 
 If you are using the code provided here in a publication, please cite our paper:
 
-  @inproceedings{cheng2016hfs,
-    title={HFS: Hierarchical Feature Selection for Efficient Image Segmentation},
-    author={Cheng, Ming-Ming and Liu, Yun and Hou, Qibin and Bian, Jiawang and Torr, Philip and Hu, Shi-Min and Tu, Zhuowen},
-    booktitle={European Conference on Computer Vision},
-    pages={867--882},
-    year={2016},
-    organization={Springer}
-  }
+    @inproceedings{cheng2016hfs,
+      title={HFS: Hierarchical Feature Selection for Efficient Image Segmentation},
+      author={Cheng, Ming-Ming and Liu, Yun and Hou, Qibin and Bian, Jiawang and Torr, Philip and Hu, Shi-Min and Tu, Zhuowen},
+      booktitle={European Conference on Computer Vision},
+      pages={867--882},
+      year={2016},
+      organization={Springer}
+    }
 
 ### Installation
 
