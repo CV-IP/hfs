@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu" />
+    <CudaCompile Include="gSLIC\engines\gSLIC_seg_engine_GPU.cu">
+      <Filter>gSLIC\engines</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Magnitude.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5b6ebcea-a37b-4e08-9220-d78b58facfec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{47d9aa44-84ae-41ef-b91d-78bbc526b7f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FelzenSegment">
+      <UniqueIdentifier>{e0026ba7-2084-4824-a7c3-247dd96bd99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BSDSBench">
+      <UniqueIdentifier>{2989402c-a928-4dc1-9abe-6d1a0989f470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BSDSBench\source">
+      <UniqueIdentifier>{d1ca0735-c192-4c66-a63b-02ada0adbd4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ORUtils">
+      <UniqueIdentifier>{efcbad90-9136-42ac-8648-084583d75b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gSLIC">
+      <UniqueIdentifier>{870a57a9-2861-4adf-a6aa-46711608d181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gSLIC\engines">
+      <UniqueIdentifier>{f4db539e-86b1-4134-ae85-8615dbff5830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gSLIC\objects">
+      <UniqueIdentifier>{47f75ebb-fd06-4dbe-9fae-d2bd23990497}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\Bench.h">
+      <Filter>BSDSBench</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\Array.hh">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\csa.hh">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\csa_defs.h">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\csa_types.h">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\Exception.hh">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\ieee_754.h">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\kofn.hh">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\match.hh">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\Matrix.hh">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\Point.hh">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\Random.hh">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\Sort.hh">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="BSDSBench\source\String.hh">
+      <Filter>BSDSBench\source</Filter>
+    </ClInclude>
+    <ClInclude Include="ORUtils\Cholesky.h">
+      <Filter>ORUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ORUtils\CUDADefines.h">
+      <Filter>ORUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ORUtils\Image.h">
+      <Filter>ORUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ORUtils\LexicalCast.h">
+      <Filter>ORUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ORUtils\MathUtils.h">
+      <Filter>ORUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ORUtils\Matrix.h">
+      <Filter>ORUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ORUtils\MemoryBlock.h">
+      <Filter>ORUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ORUtils\MemoryBlockPersister.h">
+      <Filter>ORUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ORUtils\MetalContext.h">
+      <Filter>ORUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ORUtils\PlatformIndependence.h">
+      <Filter>ORUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="ORUtils\Vector.h">
+      <Filter>ORUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="gSLIC\gSLIC.h">
+      <Filter>gSLIC</Filter>
+    </ClInclude>
+    <ClInclude Include="gSLIC\gSLIC_defines.h">
+      <Filter>gSLIC</Filter>
+    </ClInclude>
+    <ClInclude Include="gSLIC\engines\gSLIC_core_engine.h">
+      <Filter>gSLIC\engines</Filter>
+    </ClInclude>
+    <ClInclude Include="gSLIC\engines\gSLIC_seg_engine.h">
+      <Filter>gSLIC\engines</Filter>
+    </ClInclude>
+    <ClInclude Include="gSLIC\engines\gSLIC_seg_engine_GPU.h">
+      <Filter>gSLIC\engines</Filter>
+    </ClInclude>
+    <ClInclude Include="gSLIC\engines\gSLIC_seg_engine_shared.h">
+      <Filter>gSLIC\engines</Filter>
+    </ClInclude>
+    <ClInclude Include="gSLIC\objects\gSLIC_settings.h">
+      <Filter>gSLIC\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="gSLIC\objects\gSLIC_spixel_info.h">
+      <Filter>gSLIC\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FelzenSegment\convolve.h">
+      <Filter>FelzenSegment</Filter>
+    </ClInclude>
+    <ClInclude Include="FelzenSegment\disjoint-set.h">
+      <Filter>FelzenSegment</Filter>
+    </ClInclude>
+    <ClInclude Include="FelzenSegment\filter.h">
+      <Filter>FelzenSegment</Filter>
+    </ClInclude>
+    <ClInclude Include="FelzenSegment\image.h">
+      <Filter>FelzenSegment</Filter>
+    </ClInclude>
+    <ClInclude Include="FelzenSegment\segment-image.h">
+      <Filter>FelzenSegment</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Magnitude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NVTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HFSSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmIllu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BSDSBench\AllBench.cpp">
+      <Filter>BSDSBench</Filter>
+    </ClCompile>
+    <ClCompile Include="BSDSBench\BoundaryBench.cpp">
+      <Filter>BSDSBench</Filter>
+    </ClCompile>
+    <ClCompile Include="BSDSBench\RegionBench.cpp">
+      <Filter>BSDSBench</Filter>
+    </ClCompile>
+    <ClCompile Include="BSDSBench\Utils.cpp">
+      <Filter>BSDSBench</Filter>
+    </ClCompile>
+    <ClCompile Include="BSDSBench\source\correspondPixels.cc">
+      <Filter>BSDSBench\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSDSBench\source\csa.cc">
+      <Filter>BSDSBench\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSDSBench\source\Exception.cc">
+      <Filter>BSDSBench\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSDSBench\source\kofn.cc">
+      <Filter>BSDSBench\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSDSBench\source\match.cc">
+      <Filter>BSDSBench\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSDSBench\source\Matrix.cc">
+      <Filter>BSDSBench\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSDSBench\source\Random.cc">
+      <Filter>BSDSBench\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BSDSBench\source\String.cc">
+      <Filter>BSDSBench\source</Filter>
+    </ClCompile>
+    <ClCompile Include="gSLIC\engines\gSLIC_core_engine.cpp">
+      <Filter>gSLIC\engines</Filter>
+    </ClCompile>
+    <ClCompile Include="gSLIC\engines\gSLIC_seg_engine.cpp">
+      <Filter>gSLIC\engines</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FelzenSegment\segment-image.cpp">
+      <Filter>FelzenSegment</Filter>
+    </ClCompile>
+    <ClCompile Include="HFSSegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
