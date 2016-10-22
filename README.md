@@ -45,3 +45,16 @@ If you are using the code provided here in a publication, please cite our paper:
 5. Modify the path at 7th line in Segment/kernel.cu file to your path /path/to/BSDS500/
 
 Now, you can run it. Have fun!
+
+### Acknowledgment
+
+This code is based on gSLIC. Thanks to the contributors of gSLIC.
+
+    @article{gSLICr_2015,
+        author = {Carl Yuheng Ren and Victor Adrian Prisacariu and Ian D Reid},
+        title = "{gSLICr: SLIC superpixels at over 250Hz}",
+        journal = {ArXiv e-prints},
+        eprint = {1509.04232},
+        year = 2015,
+        month = sep
+    }
