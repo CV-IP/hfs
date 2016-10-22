@@ -52,7 +52,7 @@ This code is based on gSLIC. Thanks to the contributors of gSLIC.
 
     @article{gSLICr_2015,
         author = {Carl Yuheng Ren and Victor Adrian Prisacariu and Ian D Reid},
-        title = "{gSLICr: SLIC superpixels at over 250Hz}",
+        title = {gSLICr: SLIC superpixels at over 250Hz},
         journal = {ArXiv e-prints},
         eprint = {1509.04232},
         year = 2015,
